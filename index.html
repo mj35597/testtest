@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	<h1>하루 평균 물 섭취 권장량</h1>
+	<br>
+	<h3>당신의 몸무게를 입력하세요.</h3>
+	<input type="number" id="myname">
+	<input type="button" value="확인" id="but">
+	<br>
+	<div id="monitor">당신의 하루 물 섭취 권장량</div>
+	
+	<script type="text/javascript">
+		but.onclick = function(){
+			monitor.innerHTML = "당신의 하루 물 권장량은 " +	
+			(myname.value*0.03) + "L입니다.";
+		}
+
+		math.round();
+
+
+
+		
+	</script>
+</body>
+</html>
